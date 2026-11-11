@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Terms of Service · SrMalher Autocortes</title>
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap">
+<style>
+/* Layout: one readable legal column, sticky section switcher, brand neon used only as a thin accent */
+:root{
+  --bg:#fbf8fc; --surface:#ffffff; --fg:#1d1424; --muted:#5e5168; --line:#e7dfee;
+  --accent:#c2187a; --accent-2:#e07a00;
+  --display:"Space Grotesk",system-ui,sans-serif; --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#140d1a; --surface:#1c1324; --fg:#f2eaf6; --muted:#b5a6c0; --line:#33263f; --accent:#ff6fc4; --accent-2:#ffb347; color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#140d1a; --surface:#1c1324; --fg:#f2eaf6; --muted:#b5a6c0; --line:#33263f; --accent:#ff6fc4; --accent-2:#ffb347; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.65 var(--body)}
+.wrap{max-width:46rem;margin:0 auto;padding-block:40px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{display:grid;gap:10px;padding-bottom:24px;border-bottom:1px solid var(--line)}
+.brand{font:600 13px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+h1{font:700 clamp(28px,5vw,40px)/1.1 var(--display);margin:0;text-wrap:balance}
+.meta{color:var(--muted);font-size:14px}
+.bar{height:3px;width:96px;border-radius:2px;background:linear-gradient(90deg,var(--accent),var(--accent-2))}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;gap:8px;flex-wrap:wrap;padding-block:14px;border-bottom:1px solid var(--line)}
+nav a{font:600 14px/1 var(--body);color:var(--fg);text-decoration:none;padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+nav a:hover,nav a:focus-visible{border-color:var(--accent);outline:none;color:var(--accent)}
+section{padding-top:32px;scroll-margin-top:72px}
+h2{font:700 26px/1.2 var(--display);margin:0 0 4px}
+h3{font:600 17px/1.3 var(--display);margin:24px 0 6px}
+p,li{max-width:65ch}
+ul{padding-left:1.2em;margin:6px 0}
+li{margin:4px 0}
+.note{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:8px;padding:14px 16px;color:var(--fg)}
+.pt{margin-top:40px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:15px}
+.pt h2{font-size:20px;color:var(--fg)}
+code{font-size:.92em;background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:1px 5px}
+
+.hero{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.hero img{width:96px;height:96px;border-radius:20px;border:1px solid var(--line)}
+.links{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.links a{font:600 15px/1 var(--body);color:var(--fg);text-decoration:none;padding:12px 16px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.links a:hover,.links a:focus-visible{border-color:var(--accent);color:var(--accent);outline:none}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+footer a{color:var(--muted)}
+
+nav a[aria-current="page"]{border-color:var(--accent);color:var(--accent)}
+</style></head><body><div class="wrap">
+<header><span class="brand">SrMalher · @srmalher.gta6</span><h1>Terms of Service</h1>
+<span class="meta">Effective date: November 11, 2026</span><span class="bar" aria-hidden="true"></span></header>
+<nav aria-label="Pages"><a href="index.html">Home</a><a href="terms.html" aria-current="page">Terms of Service</a><a href="privacy.html">Privacy Policy</a></nav>
+<section id="terms">
+    
+    <p class="note">SrMalher Autocortes is a personal desktop tool. It is operated by the creator SrMalher (@srmalher.gta6) only for his own social media accounts. It is not offered, sold or distributed to the public.</p>
+
+    <h3>1. What the app does</h3>
+    <p>The app runs on the operator's Windows computer. It turns the operator's videos into short vertical clips and sends each clip to the <strong>drafts inbox</strong> of the operator's own TikTok account through the TikTok Content Posting API. The app never publishes on TikTok by itself: the operator opens the TikTok app, reviews the draft, edits the caption and chooses whether to post it.</p>
+
+    <h3>2. Who may use it</h3>
+    <p>Only the operator may use the app, and only with accounts he owns or manages. Connecting someone else's account is not allowed.</p>
+
+    <h3>3. Content and rights</h3>
+    <ul>
+      <li>The operator is responsible for every clip sent through the app and must hold the rights or permission to use it.</li>
+      <li>All content must follow the <a href="https://www.tiktok.com/legal/terms-of-service" target="_blank" rel="noopener">TikTok Terms of Service</a> and the <a href="https://www.tiktok.com/community-guidelines" target="_blank" rel="noopener">TikTok Community Guidelines</a>.</li>
+      <li>When a clip comes from another creator's video, the app adds a credit line to the suggested caption. A credit does not replace the creator's permission.</li>
+    </ul>
+
+    <h3>4. Third-party services</h3>
+    <p>The app connects to TikTok and also to YouTube and Instagram, for the operator's own channels. Each service's own terms apply. The app is not affiliated with, endorsed by or sponsored by TikTok, Google, Meta or Rockstar Games.</p>
+
+    <h3>5. No warranty and changes</h3>
+    <p>The app is provided "as is", without warranties. These terms may be updated. The effective date at the top of this page always shows the current version.</p>
+
+    <h3>6. Contact</h3>
+    <p>Send a direct message to <strong>@srmalher.gta6</strong> on TikTok or Instagram.</p>
+  </section>
+<footer>SrMalher Autocortes · Personal tool of the creator @srmalher.gta6 · Not affiliated with TikTok, Google, Meta or Rockstar Games.</footer>
+</div></body></html>
